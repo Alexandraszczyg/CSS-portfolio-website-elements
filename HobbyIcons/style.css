@@ -1,6 +1,21 @@
 body{
-    background-color: rgb(127, 244, 255);
+    background-color: rgb(219, 231, 232);
+    font-family: "Agrave Pro", cursive;
 }
 .menu{
     list-style: none;
+}
+
+iframe{
+    height:420px;
+    width:420px;
+}
+.card{
+     width:450px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10%;
+    margin:5%;
+    margin-left: 0;
 }
