@@ -1,6 +1,10 @@
 body{
-    background-color: rgba(244, 243, 224, 0.615);
+    background-color:#091540;
     font-family: "Open Sans", sans-serif;
+    
+}
+h1,ul{
+    color: whitesmoke;
 }
 .menu{
     list-style: none;
@@ -18,5 +22,5 @@ iframe{
     padding: 10%;
     margin:5%;
     margin-left: 0;
-    background-color: rgba(17, 11, 102, 0.722);
+    background-color:#7692FF;
 }
