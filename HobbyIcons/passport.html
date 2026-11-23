@@ -11,18 +11,111 @@
     width: 400px;
     background-color: #ABD2FA;
 }
+.page{
+    height: 200px;
+    width:150px;
+    position: absolute;
+    border-radius: 5px;
+}
+.back{
+    background-color: antiquewhite;
+}
+.p1{
+    transform: scaleX(-1);
+    height: 225px;
+    width:150px;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 60%);
+    left:128px;
+    top:79px;
+
+    
+
+}
+.p2{
+    transform: scaleX(-0.3);
+    height: 225px;
+    width: 200px;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 60%);
+    left:118px;
+    top:70px;
+    
+
+}
+.front{
+    background-color: burlywood;
+    width:150px;
+    left: 110px;
+    top:97px;
+
+    border-left-width: 30px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    position:relative;
+
+}
+h1{
+    text-align: center;
+    font-size: 150%;
+}
+
+.globe{
+    
+    border-radius: 50%;
+    background: transparent;
+    height: 75px;
+    width: 75px;
+    box-shadow: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.p6{
+position:absolute;
+ left: 35px ;
+ top:70px;
+    
+}
+
+.p7{
+    position: absolute;
+    left:55px;
+    top:70px;
+    width:35px;
+}
+.p8{
+    position: absolute;
+    left:35px;
+    top:90px;
+    height:35px;
+}
+.p9{
+    position: absolute;
+    height:0.5px;
+    width:80px;
+    border-radius: 0%;
+    border-style: hidden;
+    background-color: black;
+    left:35px;
+    top:110px;
+
+}
 </style>
 </head>
 <body>
     <div class="canvas">
-    <div class="back page p1"></div>
-    <div class="back page p2"></div>
-    <div class="front page p3"><h1>PASSPORT</h1></div>
-    <div class="text p4"></div>
-    <div class="text p5"></div>
-    <div class="globe round p6"></div>
-    <div class="globe round p7"></div>
-    <div class="globe round p8"></div>
+
+        <div class="back page p1"></div>
+        <div class="back page p2"></div>
+        <div class="front page p3">
+            <h1>PASSPORT</h1>
+            <div class="globe round p6"></div>
+            <div class="globe p7"></div>
+            <div class="globe p8"></div>
+            <div class="globe p9"></div>
+        </div>
+        <div class="text p4"></div>
+        <div class="text p5"></div>
+        
 
 
 
