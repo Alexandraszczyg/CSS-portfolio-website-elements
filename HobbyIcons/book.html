@@ -9,51 +9,115 @@
     position: relative;
     height: 400px;
     width: 400px;
-    background-color: rgba(200, 211, 166, 0.792);
+    background-color: #ABD2FA;
+}
+
+.page{
+    background-color: antiquewhite;
+    position:absolute;
+    height:200px;
+    width: 100px;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+}
+
+
+.part2{
+    left:104px;
+    top:116px;
+    transform: rotate('deg');
+    transform:scaleX(-0.5);
+
+}
+.part3{
+    left:163px;
+    top:115px;
+    transform:scaleX(0.5);
+}
+.part4{
+    left:185px;
+    top:115px;
+    transform: rotate('45deg');
+    transform:scaleX(0.7);
+
+}
+.part5{
+    left:80px;
+    top:110px;
+    transform: rotate('49deg');
+    transform:scaleX(-1);
+}
+
+
+.part6{
+    left:85px;
+    top:113px;
+    transform: rotate('47deg');
+    transform:scaleX(-0.7);
+}
+
+.part7{
+    left:185px;
+    top:110px;
+    transform: rotate('49deg');
+    transform:scaleX(1);
+    background-color: burlywood;
+}
+.part8{
+    left:80px;
+    top:109px;
+    transform: rotate('49deg');
+    transform:scaleX(-1);
+     background-color: burlywood;
 }
 
 .part1{
     position:absolute;
-    height:200px;
-    width: 100px;
-    background-color: rgb(80, 45, 2);
-    
-    left:50px;
-    top:50px;
-    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
-    border-radius: 5px;transform: rotatey('180');
-    
-}
-.part2{
-    position:absolute;
-    height:200px;
-    width: 100px;
-    left:100px;
-    background-color: rgb(80, 45, 2);
-    
-    left:188px;
-    top:80px;
-    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
-    border-radius: 5px;
-
-}
-.part3{
-    position:absolute;
-    height:160px;
-    width: 30px;
-    left:150px;
-    top:90px;
+    height:170px;
+    width: 10px;
+    left:178px;
+    top:108px;
     background-color: black;
-    
+    border-radius: 5px;
 } 
+
+.part9{
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    width:60px;
+    left:210px;
+    top: 150px;
+   transform: rotate(20deg);
+   
+} 
+.part10{
+     background-color: black;
+    height: 2px;
+    position: absolute;
+    width:60px;
+    left:210px;
+    top: 170px;
+   transform: rotate(20deg);
+   
+}
 
     </style>
 </head>
 <body>
     <div class="canvas">
-<div class="part1"></div>
-<div class="part2"></div>
-<div class="part3"></div>
+<div class="part1 spine book-cover"></div>
+<div class="part2 page"></div>
+<div class="part3 page"></div>
+<div class="part4 page"></div>
+<div class="part5 page"></div>
+<div class="part6 page"></div>
+<div class="part7 page"></div>
+<div class="part8 page"></div>
+<div class="part9 text"></div>
+<div class="part10 text"></div>
+
+
     </div>
 </body>
 </html>
