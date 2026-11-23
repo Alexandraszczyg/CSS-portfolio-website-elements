@@ -24,14 +24,129 @@
 .p1{
     /* left hand */
     width:100px;
-    left:40px;
+    left:31px;
     top:130px;
+    transform: rotate(20deg);
 }
 .p2{
     /* right hand */
     width:100px;
     left:240px;
     top:130px;
+    transform: rotate(-20deg);
+}
+
+.p3{
+    /* mid hand */
+    width:250px;
+    height:100px;
+    left:60px;
+    top:120px;
+}
+
+.p4{
+    /* low left middle */
+    width:100px;
+    height:100px;
+    top:160px;
+    left:85px;
+
+}
+.p5{
+    /* low right middle */
+    width:100px;
+    height:100px;
+    top:160px;
+    left:175px; 
+}
+
+.p6,.p7{
+    /* two grey middle buttons */
+position:absolute;
+    height: 50px;
+    width:50px;
+    background-color: rgb(105, 99, 99);
+    border-radius: 50%;
+}
+
+.p6
+{ 
+    /* left grey button */
+    left: 115px;
+    top:195px;
+}
+.p7
+{
+    /* right left button */
+    left: 195px;
+    top:195px;
+}
+.p8,.p9,.p10,.p11
+{
+    position:absolute;
+    height: 20px;
+    width:20px;
+    background-color: rgb(105, 99, 99);
+    border-radius: 50%;
+}
+
+.p8{
+    background-color:green;
+    left:260px;
+    top:140px;
+}
+.p9{
+    background-color:blue;
+    left:260px;
+    top:180px;
+}
+
+.p10{
+    background-color:yellow;
+    left:240px;
+    top:160px;
+}
+
+.p11{
+    background-color:red;
+    left:280px;
+    top:160px;
+}
+
+.p12,.p13{
+    position:absolute; 
+    height:50px;
+    width:10px;
+    background-color: rgb(222, 219, 219);
+    border-radius: 5px;
+}
+
+.p12{
+    top:150px;
+    left:90px;
+}
+.p13{
+    top:150px;
+    left:90px;
+    transform: rotate(90deg);
+}
+
+.p14,.p15{
+    position:absolute; 
+    height:30px;
+    width:20px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 2px;
+    transform: rotate(90deg);
+}
+
+.p14{
+    left:140px;
+    top:150px;
+}
+.p15{
+    left:200px;
+    top:150px;
 }
     </style>
 </head>
@@ -44,10 +159,11 @@
 <div class="shape outer p5"></div>
 <div class="shape inner p6"></div>
 <div class="shape inner p7"></div>
-<div class="shape inner p8"></div>
-<div class="shape inner p9"></div>
-<div class="shape inner p10"></div>
-<div class="shape inner p11"></div>
+    <div class="shape inner p8"></div>
+    <div class="shape inner p9"></div>
+    <div class="shape inner p10"></div>
+    <div class="shape inner p11"></div>
+
 <div class="shape inner p12"></div>
 <div class="shape inner p13"></div>
 <div class="shape inner p14"></div>
